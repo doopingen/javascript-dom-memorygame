@@ -1,0 +1,45 @@
+//HTML Element Styling
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: "Raleway" , san-serif;
+	font-weight: 600;
+	margin: 0;
+};
+
+p {
+	font-family: "Droid Serif" , serif;
+};
+
+a {
+	text-decoration: none;
+	color:white;
+};
+
+li {
+	list-style: none;
+};
+
+header {
+	background-color: #f15b31;
+	color: white;
+	padding: 30px 20px;
+};
+
+nav {
+	background-color: #00a6b3;
+	color: white;
+	padding: 20px 0;
+};
+
+main {
+	width: 850px;
+	margin: 35px auto;
+};
+
+img {
+	margin: 40px 8px;
+}
