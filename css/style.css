@@ -1,9 +1,5 @@
 //HTML Element Styling
 
-body {
-	margin: 0;
-};
-
 h1 {
 	font-family: "Raleway" , san-serif;
 	font-weight: 600;
@@ -11,7 +7,7 @@ h1 {
 };
 
 p {
-	font-family: "Droid Serif" , serif;
+	
 };
 
 a {
@@ -23,23 +19,30 @@ li {
 	list-style: none;
 };
 
-header {
+// Section Styling
+
+.outer-wrapper {
+	margin: 0;
+	font-family: "Droid Serif" , serif;
+};
+
+.header-styling {
 	background-color: #f15b31;
 	color: white;
 	padding: 30px 20px;
 };
 
-nav {
+.nav-styling {
 	background-color: #00a6b3;
 	color: white;
 	padding: 20px 0;
 };
 
-main {
+.main-container {
 	width: 850px;
 	margin: 35px auto;
 };
 
-img {
+.card-img {
 	margin: 40px 8px;
 }
