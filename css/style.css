@@ -1,48 +1,65 @@
-//HTML Element Styling
 
-h1 {
+/* Element styling */
+
+p{
+	font-family: "Droid Serif" , serif;
+	line-height: 1.5;
+}
+
+h1{
+	font-family: "Raleway" , san-serif;
+	font-weight: 300;
+	margin: 0;
+	text-transform:uppercase;
+}
+
+h2{
 	font-family: "Raleway" , san-serif;
 	font-weight: 600;
 	margin: 0;
-};
+	text-transform:uppercase;
+}
 
-p {
-	
-};
 
-a {
-	text-decoration: none;
-	color:white;
-};
+/* Content Styling */
 
-li {
-	list-style: none;
-};
-
-// Section Styling
-
-.outer-wrapper {
-	margin: 0;
-	font-family: "Droid Serif" , serif;
-};
-
-.header-styling {
+.header-styling{
 	background-color: #f15b31;
 	color: white;
 	padding: 30px 20px;
-};
+	text-align:center;
+	font-size: 20px;
+}
 
-.nav-styling {
+.outer-wrapper{
+	margin: 0;
+	font-family: "Droid Serif" , serif;
+}
+
+.nav-styling{
 	background-color: #00a6b3;
 	color: white;
-	padding: 20px 0;
-};
+	padding: 20px 0;	
+	text-align:center;
+}
 
-.main-container {
+.container{
 	width: 850px;
 	margin: 35px auto;
-};
+	text-align:center
+}
 
-.card-img {
+.nav-styling h3, a{
+	display:inline;
+	text-decoration: none;
+	color:white;
+	font-family: "Raleway" , san-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0 8px;
+	font-size: 18px;
+}
+
+.card-img{
 	margin: 40px 8px;
 }
