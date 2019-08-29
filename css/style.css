@@ -58,8 +58,51 @@ h2{
 	text-transform: uppercase;
 	margin: 0 8px;
 	font-size: 18px;
+	border-bottom: 2px solid transparent;
 }
 
-.card-img{
+.nav-styling a:hover{
+	border-bottom: 2px white solid
+}
+
+.card{
 	margin: 40px 8px;
+}
+
+/* Footer Styling */
+
+.footer-styling{
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0d2c40;
+	color:white;
+	font-size:14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.footer-social{
+	width:350px;
+}
+
+.copyright{
+	float: left;
+}
+
+.message{
+	float: right;
+}
+
+.name{
+	color: #F15B31;
+	font-weight:700;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
 }
