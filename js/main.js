@@ -67,14 +67,27 @@ function checkForMatch(){
             imgIndex[0].setAttribute("src", "images/back.png");
             imgIndex[1].setAttribute("src", "images/back.png");    
             imgIndex[2].setAttribute("src", "images/back.png");   
-            imgIndex[3].setAttribute("src", "images/back.png");            
+            imgIndex[3].setAttribute("src", "images/back.png");  
+            shuffle(cards);          
         }else {
             alert("Thanks for Playing! Please refresh browser to play again")
         }
       }
 }
 
-createBoard()
+function shuffle(arr){
+    var arrayLength = arr.length, randomNum, tempArray;
+    while (arrayLength !== 0){
+      randomNum = Math.floor(Math.random() * arrayLength);
+      arrayLength -= 1;
+      tempArray = arr[arrayLength];
+      arr[arrayLength] = arr[randomNum];
+      arr[randomNum] = tempArray;
+    }
+}
+
+createBoard();
+shuffle(cards);
 
 
 
